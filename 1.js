@@ -26,7 +26,7 @@ const companies = [
       });
   
       return {
-        ...company,
+        ...company.employees,
         numEmployees,
         departments,
       };
